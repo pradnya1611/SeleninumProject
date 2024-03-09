@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test_Scripts.Test_Script2"/>
+      <class name="test_Scripts.Group_Script"/>
+      <class name="test_Scripts.Invocation_Count"/>
+      <class name="test_Scripts.For_Skipp"/>
+      <class name="test_Scripts.Test_Script3"/>
+      <class name="test_Scripts.Mutil_LevelScript"/>
+      <class name="test_Scripts.Test_Script4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

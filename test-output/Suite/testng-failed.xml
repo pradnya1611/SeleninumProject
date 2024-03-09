@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testExecution.Login_Script">
+        <methods>
+          <include name="FBLogin"/>
+          <include name="OpenBrowser"/>
+          <include name="testmethodExecution"/>
+          <include name="OpenApp"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- testExecution.Login_Script -->
+      <class name="testExecution.CreateAccount">
+        <methods>
+          <include name="Create"/>
+          <include name="OpenBrowser"/>
+          <include name="testmethodExecution"/>
+          <include name="OpenApp"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- testExecution.CreateAccount -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
